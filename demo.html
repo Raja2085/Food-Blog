@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="item item1">Item 1</div>
+    <div class="item item2">Item 2</div>
+    <div class="item item3">Item 3</div>
+</div>
+<style>
+    .container {
+    display: flex;          /* makes it flexbox */
+    flex-direction: column; /* stack items vertically */
+    gap: 10px;               /* space between items */
+}
+
+.item {
+    background: lightblue;
+    padding: 10px;
+}
+
+/* Different sizes for each item */
+.item1 { height: 50px; width: 200px; }
+.item2 { height: 100px; width: 250px; }
+.item3 { height: 150px; width: 150px; }
+
+</style>
+</body>
+</html>

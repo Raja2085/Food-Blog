@@ -1,0 +1,84 @@
+.main{
+    height: 450px;
+    width: 700px;
+    margin-left: 500px;
+    margin-top: 150px;
+   border: 2px solid black;
+     display: inline-flex;
+}
+
+.logo{
+    width: 320px;
+    background-color: #A1D7DA;
+     /* background-color: #c4e7ffcc; */
+}
+.login{
+    width: 380px;
+    background-color: rgb(255, 255, 255);
+ 
+}
+.logo img{
+    margin-left: 100px;
+    margin-top:100px;
+    border: 2px solid black;
+    border-radius: 65px;
+}
+.logo h1{
+    margin-left: 90px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login h1{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.login label{
+      display: block;
+
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+.user input{
+    display: flex;
+    height: 20px;
+    cursor: auto;
+}
+button{
+    margin-top: 30px;
+    margin-left: 180px;
+    height: 30px;
+    width: 80px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+     background-image: url("/image/login/login.png");
+     background-repeat: no-repeat;
+     height: auto;
+     width: auto;
+
+}
+
+span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+span label {
+    width: 100px;
+}
+.user{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.second{
+    margin-top: 50px;
+
+}

@@ -1,0 +1,170 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header-first {
+    display: flex;
+    gap: 30px;
+}
+
+.header-second {
+    display: flex;
+    gap: 15px;
+}
+
+.head {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    font-size: 22px;
+    cursor: pointer;
+}
+.icons {
+    display: flex;
+    gap: 50px;  
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 50px 0;
+}
+
+.heading h2 {
+    margin: 0;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 180px;
+   background-color:aqua;
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    margin: 40px 50px;
+}
+
+.cmain {
+    background: linear-gradient(to bottom, aquamarine 50%, lightpink 50%);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cmain img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.smain {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 900px;
+    padding: 0 15px;
+}
+
+#si1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+#si {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.dishes {
+    display: flex;
+    flex-wrap: wrap;      
+    gap: 25px;           
+    justify-content: center;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.cdish {
+    width: 300px;         
+    height: 380px;       
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.cdish img {
+    width: 100%;
+    height: 200px;        
+    object-fit: cover;    
+}
+
+
+.cdish .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    padding: 10px 15px;
+}
+
+.cdish .title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 8px 0 4px 0;   
+}
+
+
+.cdish .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;        
+    font-size: 14px;
+
+    margin-top: 35px;    
+}
+
+
+.cdish .info i {
+    margin-right: 6px;
+}
