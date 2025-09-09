@@ -60,6 +60,7 @@ a {
     align-items: center; /* centers text vertically with the image */
     border: 2px solid black;
     border-radius: 20px;
+    background-color:#A1D7DA;
 }
 
 .main-text {
@@ -96,8 +97,9 @@ button:hover{
 .page{
     /* background-color: aqua; */
     border: 1px solid black;
-    height: 1000px;
-    padding: 80px;
+    height: 1200px;
+    padding-top: 100px;
+    padding-left: 150px;
     width: auto;
      background: linear-gradient(#FFFFFF, #A1D7DA); 
  
@@ -126,7 +128,7 @@ button:hover{
     position: relative;
     left: 5px;
     top: 5px;
-
+    cursor: pointer;
     /* Flexbox for centering */
     display: flex;
     justify-content: center; /* center horizontally */
@@ -179,16 +181,20 @@ button:hover{
 .page-icon{
     display: flex;
     margin-top: 2px;
+    cursor: pointer;
 }
 .page-icon i{
     padding-left: 10px;
+    cursor: pointer;
 }
 .book{
     position: relative;
     left: 80px;
+    cursor: pointer;
 }
 .page-icon span{
     margin-left: 30px;
+    cursor: pointer;
 }
 .person{
     position: relative;
@@ -200,6 +206,7 @@ button:hover{
 .person img{
     height: 17px;
     width: 17px;
+    cursor: pointer;
 }
 .person p{
     position: relative;
@@ -214,4 +221,19 @@ button:hover{
     left: 7px;
     bottom: 4px;
     gap: 0px;
+}
+.main-img {
+    width: 250px;
+    height: 217px;
+    cursor: pointer;
+}
+.view-more{
+    position: relative;
+    top: 40px;
+    right: 60px;
+    display: flex;
+    justify-content: center;
+}
+.main img{
+    cursor: pointer;
 }
