@@ -48,11 +48,170 @@ a {
     gap: 50px;  
     align-items: center;
 }
-.main{
-    height:370px;
-    margin-top:50px;
-    margin-left:80px;
-    width:90%;
-    font-size:30px;
-    background-color: violet;
+.main {
+    height: 370px;
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 90%;
+    font-size: 20px;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* centers text vertically with the image */
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.main-text {
+    position: relative;
+    bottom: 50px;
+    margin-left: 20px;
+}
+button{
+    cursor: pointer;
+    height: 40px;
+    position: relative;
+    width: 120px;
+    top: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 100ms;
+}
+button:hover{
+   background-color: blueviolet;
+   transform: rotate(80deg);
+}
+
+.main img {
+    height: 350px;
+}
+.content{
+    margin-top: 60px;
+    text-align: center;
+    line-height: 10px;
+}
+.page{
+    /* background-color: aqua; */
+    border: 1px solid black;
+    height: 1000px;
+    padding: 80px;
+    width: auto;
+     background: linear-gradient(#FFFFFF, #A1D7DA); 
+ 
+    
+}
+
+.page-main{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+  
+}
+.page-1{
+    height: fit-content;
+    width: 250px;
+    border: 1px solid black;
+    background-color: white;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 5px;
+    top: 5px;
+
+    /* Flexbox for centering */
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center;     /* center vertically */
+}
+
+.circle p {
+    font-size: 8px;
+    color: white;
+    margin: 0; /* remove default p margin */
+    text-align: center;
+}
+.page-head {
+  display: flex;
+  justify-content: space-between; /* left group vs right icon */
+  align-items: center;             /* vertical centering */
+  height: 60px;
+  padding: 0 8px;
+}
+
+.left-head {
+  display: flex;
+  align-items: center;
+  gap: 11px; /* space between circle and text */
+}
+
+.page-head span {
+  line-height: 1.2;
+}
+
+.page-head span h4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.page-head span p {
+  font-size: 12px;
+  margin: 0;
+  color: #333;
+}
+
+.fa-solid {
+  cursor: pointer;
+}
+.page-1 img{
+    margin-top: 5px;
+    width: 100%;
+    
+}
+.page-icon{
+    display: flex;
+    margin-top: 2px;
+}
+.page-icon i{
+    padding-left: 10px;
+}
+.book{
+    position: relative;
+    left: 80px;
+}
+.page-icon span{
+    margin-left: 30px;
+}
+.person{
+    position: relative;
+    top: 7px;
+    left : 7px;
+    display: flex;
+    text-align: center;
+}
+.person img{
+    height: 17px;
+    width: 17px;
+}
+.person p{
+    position: relative;
+    font-size: 10px;
+    left: 5px; 
+}
+.page-details p{
+    position: relative;
+    display: flex;
+    font-size: 12px;
+    width: 95%;
+    left: 7px;
+    bottom: 4px;
+    gap: 0px;
 }
