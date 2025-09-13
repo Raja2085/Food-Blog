@@ -1,0 +1,164 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header-first {
+    display: flex;
+    gap: 30px;
+}
+
+.header-second {
+    display: flex;
+    gap: 15px;
+}
+
+.head {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    font-size: 22px;
+    cursor: pointer;
+}
+.icons {
+    display: flex;
+    gap: 50px;  
+    align-items: center;
+}
+/* main-page */
+
+.main-page{
+    height: 300px;
+    width: 70%;
+    background-color:#A1D7DA;
+    position: relative;
+    left: 14%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.main-page{
+    position: relative;
+    display: block;
+    padding-top: 30px;
+}
+
+    .subscribe-box {
+      background: #fff;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      position: relative;
+      top: 40px;
+    }
+
+    .subscribe-box input[type="email"] {
+      border: none;
+      outline: none;
+      padding: 12px 15px;
+      border-radius: 8px 0 0 8px;
+      flex: 1;
+      font-size: 14px;
+    }
+
+    .subscribe-box button {
+      background: #000;
+      color: #fff;
+      border: none;
+      outline: none;
+      padding: 12px 20px;
+      border-radius: 0 8px 8px 0;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .subscribe-box button:hover {
+      background: #333;
+    }
+.contact-page {
+  display: flex;
+  flex-direction: row;  /*  Put contacts side by side */
+  gap: 40px; /* Space between contacts */
+  position: relative;
+  top: 100px;
+  /* right: 250px; */
+}
+
+.contact-option {
+  display: flex;
+  align-items: center; /* Align icon & text */
+  gap: 10px; /* Space between icon and text */
+  font-size: 16px;
+}
+a:hover {
+  text-decoration: underline; /* Underline appears on hover */
+}
+
+.contact-option p {
+  margin: 0;
+}
+
+/* foter */
+.foter{
+    height: 350px;
+    width: auto;
+    background-color:#e6f3ff;
+    margin-top: 100px;
+}
+
+.foter-main{
+    top: 30px;
+    position: relative;
+    left: 250px;
+    display: flex;
+    gap: 200px;
+}
+.foter-2-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    position: relative;
+    bottom: 2px;
+}
+.copy-right {
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    top: 40px;  
+}
+
+.foter-2 i{
+    cursor: pointer;
+}
+.contact-option {
+    cursor: pointer;
+}

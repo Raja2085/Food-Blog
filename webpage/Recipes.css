@@ -5,7 +5,9 @@ body {
     padding: 0;
     background: #fff;
 }
-
+a:hover {
+  text-decoration: underline; /* Underline appears on hover */
+}
 
 .header {
     display: flex;
@@ -43,6 +45,7 @@ a {
     font-size: 22px;
     cursor: pointer;
 }
+
 .icons {
     display: flex;
     gap: 50px;  
@@ -167,4 +170,37 @@ a {
 
 .cdish .info i {
     margin-right: 6px;
+}
+
+/* foter */
+.foter{
+    height: 350px;
+    width: auto;
+    background-color:#e6f3ff;
+    margin-top: 100px;
+}
+
+
+.foter-main{
+    top: 30px;
+    position: relative;
+    left: 250px;
+    display: flex;
+    gap: 200px;
+}
+.foter-2-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    position: relative;
+    bottom: 2px;
+}
+.copy-right {
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    top: 40px;  
+}
+.foter-2 i{
+    cursor: pointer;
 }

@@ -5,7 +5,9 @@ body {
     padding: 0;
     background: #fff;
 }
-
+a:hover {
+  text-decoration: underline; /* Underline appears on hover */
+}
 
 .header {
     display: flex;
@@ -197,4 +199,93 @@ i{
     padding-left: 25px;
     color: white;
     margin-top: 10px;
+}
+/* foter */
+.foter{
+    height: 350px;
+    width: auto;
+    background-color:#e6f3ff;
+    margin-top: 100px;
+}
+
+.foter-main{
+    top: 30px;
+    position: relative;
+    left: 250px;
+    display: flex;
+    gap: 200px;
+}
+.foter-2-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    position: relative;
+    bottom: 2px;
+}
+.copy-right {
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    top: 40px;  
+    
+}
+.i{
+    cursor: pointer;
+}
+.heading-second {
+  display: flex;
+  flex-direction: column;   /* stack vertically */
+  align-items: center;      /* center horizontally */
+  justify-content: center;  /* center vertically if parent has height */
+  margin: 0 auto;
+  text-align: center;       /* center the text itself */
+  gap: 10px;
+  height: 200px;            /* optional fixed height */
+}
+
+.heading-second .title {
+  font-size: 28px; /* heading style */
+  font-weight: bold;
+  margin: 0;
+}
+
+.heading-second .desc {
+  font-size: 16px; /* paragraph style */
+  margin: 0;
+  line-height: 1.5;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+
+}
+
+.card {
+    margin-left: 25px;
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 0.9em;
+  color: #666;
 }

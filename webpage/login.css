@@ -1,84 +1,123 @@
-.main{
-    height: 450px;
-    width: 700px;
-    margin-left: 500px;
-    margin-top: 150px;
-   border: 2px solid black;
-     display: inline-flex;
-}
-
-.logo{
-    width: 320px;
-    background-color: #A1D7DA;
-     /* background-color: #c4e7ffcc; */
-}
-.login{
-    width: 380px;
-    background-color: rgb(255, 255, 255);
- 
-}
-.logo img{
-    margin-left: 100px;
-    margin-top:100px;
-    border: 2px solid black;
-    border-radius: 65px;
-}
-.logo h1{
-    margin-left: 90px;
-    font-size: x-large;
+body {
     font-family: 'Times New Roman', Times, serif;
-}
-.login h1{
-    margin-top: 50px;
-    margin-left: 150px;
-}
-.login label{
-      display: block;
-
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 20px;
-}
-.user input{
+    margin: 0;
+    padding: 0;
+    background-image: url("/image/login/login.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
     display: flex;
-    height: 20px;
-    cursor: auto;
+    justify-content: center;
+    align-items: center;
 }
-button{
-    margin-top: 30px;
-    margin-left: 180px;
-    height: 30px;
-    width: 80px;
-    background-color: green;
-    color: white;
-    border: none;
-    cursor: pointer;
-  
-}
-body{
-    font-family: 'Times New Roman', Times, serif;
-     background-image: url("/image/login/login.png");
-     background-repeat: no-repeat;
-     height: auto;
-     width: auto;
 
+.main {
+    height: 500px;
+    width: 700px;
+    display: flex;
+    border: 2px solid #333;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 320px;
+    background: linear-gradient(135deg, #A1D7DA, #c4e7ffcc);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    border: 2px solid #333;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+.login {
+    width: 380px;
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.user {
+    margin: 15px 0;
+    width: 100%;
 }
 
 span {
     display: flex;
     align-items: center;
-    gap: 10px;
-
+    gap: 15px;
+    width: 100%;
 }
 
 span label {
-    width: 100px;
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: bold;
+    width: 120px;
+    text-align: right;
 }
-.user{
-    margin-top: 10px;
-    padding-top: 20px;
-}
-.second{
-    margin-top: 50px;
 
+.user input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.user input:focus {
+    border-color: #A1D7DA;
+}
+
+button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background: linear-gradient(90deg, #4CAF50, #2E7D32);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(90deg, #2E7D32, #4CAF50);
+}
+
+button:active {
+    transform: translateY(0);
 }

@@ -1,0 +1,99 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header-first {
+    display: flex;
+    gap: 30px;
+}
+
+.header-second {
+    display: flex;
+    gap: 15px;
+}
+
+.head {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    gap: 50px;  
+    align-items: center;
+}
+
+.about-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e6f3ff;
+}
+
+.about-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.chef-image {
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+.learn-more {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.learn-more:hover {
+    background-color: #333;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
